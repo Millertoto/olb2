@@ -1,0 +1,51 @@
+#PL {
+    max-width: 5em;
+    max-height: 5em;
+}
+#modified{
+    font-size: 12px;
+    margin-right: 4px;
+}
+#small p {
+    font-size: small;
+    margin-bottom: 0px;
+}
+
+.tiny-img{
+    max-width: 10em;
+    max-height: 10em;
+}
+
+.links{
+    display: inline-flex;
+}
+.links a {
+    color: black;
+    background-color: #AAFFB5;
+    border-style: solid;
+    border-width: thin;
+    border-color: black;
+    margin: 2px;
+    padding: 2px;
+}
+.footer-a-tiny{
+    margin-left: 5px;
+}
+
+@media only screen and (max-width: 768px){
+    .maincontent{
+        margin-top: 6px;
+        border-bottom-style: solid;
+        border-bottom-width: thin;
+        border-bottom-color: black;
+    }
+}
+/*
+Colour Pallete
+#9EF7FF
+#8EFDF0
+#92FFD6
+#AAFFB5
+#CEFF91
+#F9F871
+*/
